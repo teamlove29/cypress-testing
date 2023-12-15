@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "strict": true,
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "lib": ["ESNext", "dom"],
+    
+    "types": ["node", "cypress", "@testing-library/cypress"],
+    "baseUrl": "./cypress"
+  },
+  "include": ["**/*.ts"],
+}
